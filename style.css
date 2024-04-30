@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.sec1{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url("travelbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+nav{
+    height: 80px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: #003a65;
+    font-style: italic;
+    margin: 10px ;
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #abd5f7;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover{
+    background-color: #005589;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.article{
+    width: 50%;
+    transform: translateY(40vh);
+    text-align: center;
+}
+
+.article h1 {
+    font-size: 35px;
+    color: #eaeaea;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.article p{
+    color: #b0cfe3;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 80px;
+    font-weight: 500;
+}
+
+.sec2{
+    /* min-height: 100vh; */
+    background-color: #b0cfe3;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.about{
+    text-align: center;
+    color: #003a65;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+.para{
+    margin-top: 50px;
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 80px;
+    font-weight: 500;
+    /* text-align: center; */
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+div{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+img{
+    height: 400px;
+    width: 300px;
+    align-items: center;
+    display: inline-block;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.sec3{
+    background-color: rgba(207, 208, 226, 0.769);
+}
+
+.container3{
+    text-align: center;
+}
+
+.explore{
+    color: #003a65;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+.city{
+    
+    display: inline;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px
+}
+
+.city:hover{
+    background-color: rgba(27, 45, 45, 0.813);
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.sec4{
+    background-color: antiquewhite;
+}
+
+.container4{
+    display: inline;
+}
+
+.testi{
+    text-align: center;
+    margin-bottom: 60px;
+    color:#003a65;
+    text-decoration-line: underline;
+    font-style: italic;
+}
+
+.sec5{
+    background-color: #8cc0e8;
+}
+
+.contact{
+    text-align: center;
+    margin-bottom: 60px;
+    color:#003a65;
+    text-decoration-line: underline;
+    font-style: italic;
+}
+
+.container5{
+    background-color: rgba(229, 222, 222, 0.553);
+            margin: 8px 50px;
+            padding: 8px;
+            width: 50%;
+            text-align: left;
+            margin-bottom: 50px;
+            border-radius: 10px;
+
+}
+
+input[type=text]{
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+input[type=number]{
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    padding: 6px ;
+    border-radius: 10px;
+}
+
+input[type=password]{
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+button{
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    /* background-color: rgb(88, 198, 88); */
+    opacity: 0.8;
+    cursor: pointer;
+}
